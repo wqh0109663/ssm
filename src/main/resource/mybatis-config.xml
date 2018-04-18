@@ -24,6 +24,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="it/huanzi/mapper/CountryMapper.xml"/>
+        <package name="it.huanzi.mapper"/>
     </mappers>
 </configuration>

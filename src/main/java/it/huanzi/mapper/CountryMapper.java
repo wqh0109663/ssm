@@ -9,4 +9,6 @@ import java.util.List;
  */
 public interface CountryMapper {
     List<Country> getAllCountrys();
+    Country getOneCountry(String countrycode);
+
 }

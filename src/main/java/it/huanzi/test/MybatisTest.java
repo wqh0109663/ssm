@@ -31,6 +31,8 @@ public class MybatisTest {
             for(Country country :countrys){
                 System.out.println(country);
             }
+            Country cn = mapper.getOneCountry("CN");
+            System.out.println(cn);
 
         } finally {
             session.close();
